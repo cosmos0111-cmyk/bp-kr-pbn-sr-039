@@ -1,301 +1,299 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>가양 유흥 정보 블로그 | 가양 나이트라이프 꿀팁</title>
-    <meta name="description" content="가양 유흥 정보를 한눈에! 가양 지역 유흥 업소 추천, 실제 이용 후기, 분위기, 가격 정보까지. 가양에서 즐거운 밤을 보내고 싶다면 여기서 확인하세요.">
-    <meta name="keywords" content="가양 유흥, 가양 유흥 정보, 가양 술집, 가양 업소, 가양 나이트, 가양술집, 가양 nightlife">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-warm-grid">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://gayang-night-guide.node-link.shop/blog.html">
-    <meta property="og:title" content="가양 유흥 정보 블로그 | 가양 나이트라이프 꿀팁">
-    <meta property="og:description" content="가양 유흥 정보를 한눈에! 가양 지역 유흥 업소 추천, 실제 이용 후기, 분위기, 가격 정보까지. 가양에서 즐거운 밤을 보내고 싶다면 여기서 확인하세요.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://gayang-night-guide.node-link.shop/blog.html">
-    <meta property="og:locale" content="ko_KR">
-    <meta property="og:site_name" content="가양 유흥 정보">
-    <meta name="twitter:card" content="summary">
-    <style>
-        /* === CSS Reset & Base === */
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html {
-            scroll-behavior: smooth;
-            -webkit-text-size-adjust: 100%;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background-color: #faf7f2;
-            color: #2c2c2c;
-            line-height: 1.7;
-            font-size: 16px;
-        }
-        /* === Typography === */
-        h1, h2, h3, h4, h5, h6 {
-            font-weight: 600;
-            line-height: 1.3;
-            letter-spacing: -0.02em;
-            color: #1a1a1a;
-        }
-        h1 {
-            font-size: 2.4rem;
-            margin-bottom: 0.5rem;
-        }
-        h2 {
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
-            margin-top: 2.5rem;
-        }
-        h3 {
-            font-size: 1.3rem;
-            margin-bottom: 0.75rem;
-            margin-top: 1.5rem;
-        }
-        p {
-            margin-bottom: 1.2rem;
-            color: #3a3a3a;
-        }
-        a {
-            color: #b8860b;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-        a:hover {
-            color: #8b6508;
-        }
-        /* === Container === */
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        /* === Header & Navigation === */
-        header {
-            background: #ffffff;
-            border-bottom: 1px solid #e8e0d5;
-            padding: 15px 0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-        }
-        .header-inner {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .logo a {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #2c2c2c;
-            letter-spacing: -0.03em;
-        }
-        .logo a:hover {
-            color: #b8860b;
-        }
-        nav ul {
-            display: flex;
-            list-style: none;
-            gap: 28px;
-        }
-        nav a {
-            font-size: 0.95rem;
-            font-weight: 500;
-            color: #3a3a3a;
-            padding: 6px 0;
-            border-bottom: 2px solid transparent;
-            transition: border-color 0.2s, color 0.2s;
-        }
-        nav a:hover {
-            color: #b8860b;
-            border-bottom-color: #b8860b;
-        }
-        nav a.active {
-            color: #b8860b;
-            border-bottom-color: #b8860b;
-        }
-        .hamburger-menu {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            gap: 5px;
-            padding: 5px;
-        }
-        .hamburger-menu span {
-            display: block;
-            width: 26px;
-            height: 3px;
-            background: #2c2c2c;
-            border-radius: 2px;
-            transition: all 0.3s;
-        }
-        .tel-link {
-            background: #b8860b;
-            color: #fff !important;
-            padding: 8px 18px !important;
-            border-radius: 30px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            border: none !important;
-        }
-        .tel-link:hover {
-            background: #9a7209;
-            color: #fff !important;
-        }
-        /* === Hero / Page Title === */
-        .page-hero {
-            padding: 60px 0 30px;
-            text-align: center;
-        }
-        .page-hero h1 {
-            font-size: 2.8rem;
-            margin-bottom: 12px;
-        }
-        .page-hero p {
-            font-size: 1.15rem;
-            max-width: 650px;
-            margin: 0 auto 20px;
-            color: #5a5a5a;
-        }
-        /* === Blog Post (Single Article) === */
-        .blog-post {
-            background: #ffffff;
-            border-radius: 20px;
-            padding: 40px 45px;
-            margin: 20px 0 50px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
-            border: 1px solid #ece4d8;
-        }
-        .blog-post .post-meta {
-            font-size: 0.85rem;
-            color: #8a8a8a;
-            margin-bottom: 25px;
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .blog-post .post-meta span {
-            background: #f5f0e9;
-            padding: 4px 14px;
-            border-radius: 20px;
-        }
-        .blog-post h2 {
-            margin-top: 2rem;
-        }
-        .blog-post h3 {
-            margin-top: 1.8rem;
-        }
-        .blog-post p {
-            font-size: 1.05rem;
-        }
-        .blog-post ul, .blog-post ol {
-            margin: 1rem 0 1.5rem 1.8rem;
-        }
-        .blog-post li {
-            margin-bottom: 0.6rem;
-            color: #3a3a3a;
-        }
-        .blog-post .highlight-box {
-            background: #f9f5ee;
-            border-left: 5px solid #b8860b;
-            padding: 20px 25px;
-            border-radius: 12px;
-            margin: 25px 0;
-        }
-        .blog-post .highlight-box p:last-child {
-            margin-bottom: 0;
-        }
-        /* === Footer === */
-        footer {
-            background: #2c2c2c;
-            color: #c8c0b5;
-            padding: 40px 0;
-            margin-top: 50px;
-            text-align: center;
-            font-size: 0.9rem;
-        }
-        footer a {
-            color: #e0d5c5;
-        }
-        footer a:hover {
-            color: #fff;
-        }
-        /* === Responsive (768px) === */
-        @media (max-width: 768px) {
-            .container {
-                padding: 0 16px;
-            }
-            h1 {
-                font-size: 1.8rem;
-            }
-            h2 {
-                font-size: 1.4rem;
-            }
-            .page-hero h1 {
-                font-size: 2rem;
-            }
-            .page-hero p {
-                font-size: 1rem;
-            }
-            .blog-post {
-                padding: 25px 20px;
-            }
-            .blog-post .post-meta {
-                flex-direction: column;
-                gap: 8px;
-            }
-            nav ul {
-                display: none;
-                flex-direction: column;
-                background: #ffffff;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                padding: 20px;
-                box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-                gap: 12px;
-                border-top: 1px solid #e8e0d5;
-            }
-            nav ul.show {
-                display: flex;
-            }
-            .hamburger-menu {
-                display: flex;
-            }
-            .tel-link {
-                display: inline-block;
-                text-align: center;
-                margin-top: 8px;
-            }
-        }
-    </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>가양 유흥 정보 블로그 | 가양 나이트라이프 꿀팁</title>
+ <meta name="description" content="가양 유흥 정보를 한눈에! 가양 지역 유흥 업소 추천, 실제 이용 후기, 분위기, 가격 정보까지. 가양에서 즐거운 밤을 보내고 싶다면 여기서 확인하세요.">
+ <meta name="keywords" content="가양 유흥, 가양 유흥 정보, 가양 술집, 가양 업소, 가양 나이트, 가양술집, 가양 nightlife">
+ <meta name="robots" content="index, follow">
+ <link rel="canonical" href="https://gayang-night-guide.node-link.shop/blog.html">
+ <meta property="og:title" content="가양 유흥 정보 블로그 | 가양 나이트라이프 꿀팁">
+ <meta property="og:description" content="가양 유흥 정보를 한눈에! 가양 지역 유흥 업소 추천, 실제 이용 후기, 분위기, 가격 정보까지. 가양에서 즐거운 밤을 보내고 싶다면 여기서 확인하세요.">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://gayang-night-guide.node-link.shop/blog.html">
+ <meta property="og:locale" content="ko_KR">
+ <meta property="og:site_name" content="가양 유흥 정보">
+ <meta name="twitter:card" content="summary">
+ <style>
+ /* === CSS Reset & Base === */
+ *, *::before, *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ html {
+ scroll-behavior: smooth;
+ -webkit-text-size-adjust: 100%;
+ }
+ body {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+ background-color: #faf7f2;
+ color: #2c2c2c;
+ line-height: 1.7;
+ font-size: 16px;
+ }
+ /* === Typography === */
+ h1, h2, h3, h4, h5, h6 {
+ font-weight: 600;
+ line-height: 1.3;
+ letter-spacing: -0.02em;
+ color: #1a1a1a;
+ }
+ h1 {
+ font-size: 2.4rem;
+ margin-bottom: 0.5rem;
+ }
+ h2 {
+ font-size: 1.8rem;
+ margin-bottom: 1rem;
+ margin-top: 2.5rem;
+ }
+ h3 {
+ font-size: 1.3rem;
+ margin-bottom: 0.75rem;
+ margin-top: 1.5rem;
+ }
+ p {
+ margin-bottom: 1.2rem;
+ color: #3a3a3a;
+ }
+ a {
+ color: #b8860b;
+ text-decoration: none;
+ transition: color 0.2s;
+ }
+ a:hover {
+ color: #8b6508;
+ }
+ /* === Container === */
+ .container {
+ max-width: 1100px;
+ margin: 0 auto;
+ padding: 0 20px;
+ }
+ /* === Header & Navigation === */
+ header {
+ background: #ffffff;
+ border-bottom: 1px solid #e8e0d5;
+ padding: 15px 0;
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+ }
+ .header-inner {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+ .logo a {
+ font-size: 1.5rem;
+ font-weight: 700;
+ color: #2c2c2c;
+ letter-spacing: -0.03em;
+ }
+ .logo a:hover {
+ color: #b8860b;
+ }
+ nav ul {
+ display: flex;
+ list-style: none;
+ gap: 28px;
+ }
+ nav a {
+ font-size: 0.95rem;
+ font-weight: 500;
+ color: #3a3a3a;
+ padding: 6px 0;
+ border-bottom: 2px solid transparent;
+ transition: border-color 0.2s, color 0.2s;
+ }
+ nav a:hover {
+ color: #b8860b;
+ border-bottom-color: #b8860b;
+ }
+ nav a.active {
+ color: #b8860b;
+ border-bottom-color: #b8860b;
+ }
+ .hamburger-menu {
+ display: none;
+ flex-direction: column;
+ cursor: pointer;
+ gap: 5px;
+ padding: 5px;
+ }
+ .hamburger-menu span {
+ display: block;
+ width: 26px;
+ height: 3px;
+ background: #2c2c2c;
+ border-radius: 2px;
+ transition: all 0.3s;
+ }
+ .tel-link {
+ background: #b8860b;
+ color: #fff !important;
+ padding: 8px 18px !important;
+ border-radius: 30px;
+ font-weight: 600;
+ font-size: 0.9rem;
+ border: none !important;
+ }
+ .tel-link:hover {
+ background: #9a7209;
+ color: #fff !important;
+ }
+ /* === Hero / Page Title === */
+ .page-hero {
+ padding: 60px 0 30px;
+ text-align: center;
+ }
+ .page-hero h1 {
+ font-size: 2.8rem;
+ margin-bottom: 12px;
+ }
+ .page-hero p {
+ font-size: 1.15rem;
+ max-width: 650px;
+ margin: 0 auto 20px;
+ color: #5a5a5a;
+ }
+ /* === Blog Post (Single Article) === */
+ .blog-post {
+ background: #ffffff;
+ border-radius: 20px;
+ padding: 40px 45px;
+ margin: 20px 0 50px;
+ box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+ border: 1px solid #ece4d8;
+ }
+ .blog-post .post-meta {
+ font-size: 0.85rem;
+ color: #8a8a8a;
+ margin-bottom: 25px;
+ display: flex;
+ gap: 20px;
+ flex-wrap: wrap;
+ }
+ .blog-post .post-meta span {
+ background: #f5f0e9;
+ padding: 4px 14px;
+ border-radius: 20px;
+ }
+ .blog-post h2 {
+ margin-top: 2rem;
+ }
+ .blog-post h3 {
+ margin-top: 1.8rem;
+ }
+ .blog-post p {
+ font-size: 1.05rem;
+ }
+ .blog-post ul, .blog-post ol {
+ margin: 1rem 0 1.5rem 1.8rem;
+ }
+ .blog-post li {
+ margin-bottom: 0.6rem;
+ color: #3a3a3a;
+ }
+ .blog-post .highlight-box {
+ background: #f9f5ee;
+ border-left: 5px solid #b8860b;
+ padding: 20px 25px;
+ border-radius: 12px;
+ margin: 25px 0;
+ }
+ .blog-post .highlight-box p:last-child {
+ margin-bottom: 0;
+ }
+ /* === Footer === */
+ footer {
+ background: #2c2c2c;
+ color: #c8c0b5;
+ padding: 40px 0;
+ margin-top: 50px;
+ text-align: center;
+ font-size: 0.9rem;
+ }
+ footer a {
+ color: #e0d5c5;
+ }
+ footer a:hover {
+ color: #fff;
+ }
+ /* === Responsive (768px) === */
+ @media (max-width: 768px) {
+ .container {
+ padding: 0 16px;
+ }
+ h1 {
+ font-size: 1.8rem;
+ }
+ h2 {
+ font-size: 1.4rem;
+ }
+ .page-hero h1 {
+ font-size: 2rem;
+ }
+ .page-hero p {
+ font-size: 1rem;
+ }
+ .blog-post {
+ padding: 25px 20px;
+ }
+ .blog-post .post-meta {
+ flex-direction: column;
+ gap: 8px;
+ }
+ nav ul {
+ display: none;
+ flex-direction: column;
+ background: #ffffff;
+ position: absolute;
+ top: 100%;
+ left: 0;
+ right: 0;
+ padding: 20px;
+ box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+ gap: 12px;
+ border-top: 1px solid #e8e0d5;
+ }
+ nav ul.show {
+ display: flex;
+ }
+ .hamburger-menu {
+ display: flex;
+ }
+ .tel-link {
+ display: inline-block;
+ text-align: center;
+ margin-top: 8px;
+ }
+ }
+ </style>
+ <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
-    <header>
-        <div class="container header-inner">
-            <div class="logo">
-                <a href="/">가양유흥</a>
-            </div>
-            <nav>
-                <div class="hamburger-menu" onclick="this.nextElementSibling.classList.toggle('show')">
-                    <span></span><span></span><span></span>
-                </div>
-                <ul>
-                    <li><a href="/">홈</a></li>
-                    <li><a href="/blog" class="active">블로그</a></li>
-                    <li><a href="/about">소개</a></li>
-                    <li><a href="tel:010-1234-5678" class="tel-link">전화 문의</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+ <header>
+ <div class="container header-inner">
+ <div class="logo">
+ <a href="/">가양유흥</a>
+ </div>
+ <nav>
+ <div class="hamburger-menu" onclick="this.nextElementSibling.classList.toggle('show')">
+ <span></span><span></span><span></span>
+ </div>
+ <ul>
+ <li><a href="/">홈</a></li>
+ <li><a href="/blog" class="active">블로그</a></li>
+ <li><a href="/about">소개</a></li>
+ <li><a href="tel:010-1234-5678" class="tel-link">전화 문의</a></li>
+ </ul>
+ </nav>
+ </div>
+ </header>
 
 <main>
 <div class="container">
